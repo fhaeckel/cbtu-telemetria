@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
+```
+
+8. Clique em **Commit changes**
+
+---
+
+### **PASSO 4: Deploy no Vercel**
+
+1. Vá em [vercel.com/new](https://vercel.com/new)
+2. Clique em **Import Git Repository**
+3. Selecione: `fhaeckel/cbtu-telemetria`
+4. **Framework Preset:** Other (deixe assim)
+5. Clique em **Deploy**
+6. Aguarde 30 segundos ✅
+
+---
+
+## ✅ **Resultado Esperado:**
+```
+✓ Deployment ready
+https://cbtu-telemetria.vercel.app
